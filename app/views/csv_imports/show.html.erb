@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Filename:</strong>
+  <%= @csv_import.filename %>
+</p>
+
+<p>
+  <strong>Imported:</strong>
+  <%= @csv_import.imported %>
+</p>
+
+<%= link_to 'Edit', edit_csv_import_path(@csv_import) %> |
+<%= link_to 'Back', csv_imports_path %>

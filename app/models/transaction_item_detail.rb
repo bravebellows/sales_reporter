@@ -1,0 +1,2 @@
+class TransactionItemDetail < ApplicationRecord
+end
